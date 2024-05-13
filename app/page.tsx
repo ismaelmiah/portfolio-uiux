@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-gray-950 flex justify-center items-center">
-      <div className="container mx-auto px-8 py-8 md:mx-10 lg:mx-15 ">
+      <div className="w-full mx-24 py-8 ">
         <div className="flex justify-between items-center py-4 px-8 bg-gray-900 text-white rounded-3xl border border-slate-700">
           <div className="flex items-center space-x-4">
             <ul className="flex space-x-6">
@@ -23,9 +23,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-between mt-6">
-          <div className="w-1/2  rounded-3xl border border-slate-700 p-4 mr-2 ">
-            <div className="flex-col justify-center items-start gap-2 inline-flex">
-              <div className="justify-start items-start gap-60 inline-flex">
+          <div className="w-1/2 rounded-3xl border border-slate-700 p-8 mr-2 flex flex-col justify-between">
+            <div className="flex-col justify-center items-start flex">
+              <div className="flex w-full justify-between">
                 <div className="text-white text-2xl font-normal font-['Arial']">
                   UI/UX DESIGNER
                 </div>
@@ -40,27 +40,27 @@ export default function Home() {
                 Dhaka, Bangladesh
               </div>
             </div>
-            <div className="mt-16 flex">
-              <div className="rounded-full overflow-hidden mr-6">
+            <div className="flex min-h-96 items-end">
+              <div className="rounded-full">
                 <Image
                   src="/images/profile.png"
                   alt="Photo"
-                  width={100}
+                  width={250}
                   height={100}
                   className="rounded-full"
                 />
               </div>
-              <div>
-                <h1 className="text-white text-4xl font-normal font-['Poppins']">
+              <div className="flex flex-col items-start pl-8 pb-8 ">
+                <h1 className="text-white pb-6 text-5xl font-normal font-Poppins">
                   I&apos;M IBRAHIM MIAH
                 </h1>
-                <h4 className="w-96 text-zinc-400 text-base font-normal font-['Poppins'] leading-relaxed">
+                <h4 className="w-96 text-zinc-400 pb-6 text-lg font-normal font-Poppins leading-relaxed">
                   I specialize in UI/UX design for the Web apps, Websites and
                   Mobile application.
                 </h4>
                 <div className="px-8 py-2 bg-indigo-700 rounded-lg shadow justify-center items-center gap-2.5 inline-flex">
                   <a
-                    className="text-right text-white text-base font-normal font-['Arial']"
+                    className="text-right text-white text-base font-normal font-Arial"
                     href="#"
                   >
                     Let’s Talk
