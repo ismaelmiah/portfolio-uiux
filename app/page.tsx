@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-gray-950 flex justify-center items-center">
-      <div className="w-full mx-24 py-8 ">
+      <div className="container py-8 ">
         <div className="flex justify-between items-center py-4 px-8 bg-gray-900 text-white rounded-3xl border border-slate-700">
           <div className="flex items-center space-x-4">
             <ul className="flex space-x-6">
@@ -40,21 +40,21 @@ export default function Home() {
                 Dhaka, Bangladesh
               </div>
             </div>
-            <div className="flex min-h-96 items-end">
-              <div className="rounded-full">
+            <div className="flex items-end">
+              <div className="w-1/3 rounded-full">
                 <Image
                   src="/images/profile.png"
                   alt="Photo"
-                  width={250}
+                  width={150}
                   height={100}
                   className="rounded-full"
                 />
               </div>
-              <div className="flex flex-col items-start pl-8 pb-8 ">
-                <h1 className="text-white pb-6 text-5xl font-normal font-Poppins">
+              <div className="w-1/2 flex flex-col items-start pl-8">
+                <h1 className="text-white pb-6 text-4xl font-normal font-Poppins">
                   I&apos;M IBRAHIM MIAH
                 </h1>
-                <h4 className="w-96 text-zinc-400 pb-6 text-lg font-normal font-Poppins leading-relaxed">
+                <h4 className="w-96 text-zinc-400 pb-6 text-base font-normal font-Poppins leading-relaxed">
                   I specialize in UI/UX design for the Web apps, Websites and
                   Mobile application.
                 </h4>
