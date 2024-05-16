@@ -6,8 +6,8 @@ import Row2 from './Row2'
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex justify-center bg-gray-950 overflow-hidden">
-      <div className="bg-gray-900 rounded-lg w-full max-w-4xl mt-4">
+    <div className="min-h-screen flex justify-center bg-[#0A0F14] overflow-hidden">
+      <div className="w-full max-w-4xl mt-4">
         <Navbar />
         <main className="py-4">
           <Row1 />
