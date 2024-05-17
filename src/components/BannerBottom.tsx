@@ -25,12 +25,12 @@ const cards = [
 
 const BannerBottom = () => {
   return (
-    <div className="custom-container mt-6">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="w-full px-2 md:px-0 mt-6 md:mt-0">
+      <div className="grid grid-cols-2 gap-4">
         {cards.map((card) => (
           <div
             key={card.id}
-            className="flex justify-center items-center bg-[#131a29] rounded-3xl h-32  border border-[var(--color-tertiary)]"
+            className="flex justify-center items-center bg-[#131a29] rounded-2xl h-32 md:h-40 border border-[var(--color-tertiary)]"
           >
             <div className="flex flex-col items-center">
               <Image
