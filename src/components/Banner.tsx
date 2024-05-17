@@ -4,8 +4,8 @@ import BannerBottom from "./BannerBottom";
 
 const Banner = () => {
   return (
-    <section className="custom-container mt-6 grid grid-cols-1 md:grid-cols-2 md:gap-6">
-      <div className="p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] md:flex flex-col justify-between">
+    <section className="custom-container mt-6 grid grid-cols-1 lg:grid-cols-2 md:gap-6">
+      <div className="p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] md:flex flex-col justify-between gap-6">
         <div className="flex justify-between items-center">
           <div className="md:hidden">
             <Image
@@ -23,7 +23,6 @@ const Banner = () => {
             </p>
           </div>
           <div className="flex gap-2 items-center p-1 px-3 rounded-2xl bg-[var(--color-primary)] border border-[var(--color-tertiary)]">
-            {/* red dot */}
             <span className="w-2 h-2 bg-red-600 rounded-full" />
             <p className="text-xs">AVAILABLE FOR JOB</p>
           </div>

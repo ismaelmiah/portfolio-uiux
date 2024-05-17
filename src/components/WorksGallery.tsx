@@ -24,7 +24,7 @@ const WorksGallery = () => {
     <section className="custom-container mt-6">
       <div className="p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)]">
         <h3 className="text-base font-semibold md:hidden">Works Gallery</h3>
-        <div className="md:flex justify-between items-center mb-3">
+        <div className="hidden md:flex justify-between items-center mb-3">
           <h3 className="text-lg font-semibold text-[#9BA1A6]">Works</h3>
           <Link href="/works" className="text-[#3833D7] text-base underline">
             View All

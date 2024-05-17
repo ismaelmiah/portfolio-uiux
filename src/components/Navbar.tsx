@@ -15,7 +15,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="custom-container">
+      <div className="custom-container hidden md:block">
         <div className="p-4 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] flex justify-between items-center">
           <div className="flex items-center gap-5">
             <Link href="/works" className="text-base text-[#9BA1A6]">
