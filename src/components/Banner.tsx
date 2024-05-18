@@ -4,8 +4,8 @@ import BannerBottom from "./BannerBottom";
 
 const Banner = () => {
   return (
-    <section className="custom-container mt-6 grid grid-cols-1 lg:grid-cols-2 md:gap-6">
-      <div className="p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] md:flex flex-col justify-between gap-6">
+    <section className="custom-container mt-[20px] grid grid-cols-1 lg:grid-cols-2 md:gap-[20px]">
+      <div className="profile p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] md:flex flex-col justify-between gap-6" style={{background: 'linear-gradient(114deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%);'}}>
         <div className="flex justify-between items-center">
           <div className="md:hidden">
             <Image

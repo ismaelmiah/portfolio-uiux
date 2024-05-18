@@ -6,7 +6,13 @@ const Navbar = () => {
   return (
     <header className="">
       <div className="custom-container md:hidden">
-        <div className="flex justify-between items-center">
+        <div
+          className="flex justify-between items-center"
+          style={{
+            background:
+              "radial-gradient(circle, rgb(89 84 222 / 10%) 0%, rgb(14 22 29 / 0%) 100%);",
+          }}
+        >
           <div>
             <Image src="/images/logo.png" alt="Logo" width={60} height={100} />
           </div>

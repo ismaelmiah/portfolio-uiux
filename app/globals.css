@@ -19,6 +19,19 @@ body {
   padding-right: 20px;
 }
 
+.behance:hover{
+  background: linear-gradient(150deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%) !important;
+}
+.dribbble:hover{
+  background: linear-gradient(200deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%) !important;
+}
+.instagram:hover{
+  background: linear-gradient(270deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%) !important;
+}
+.linkedin:hover{
+  background: linear-gradient(360deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%) !important;
+}
+
 @media screen and (min-width: 768px) {
   .custom-container {
     padding-left: 12%;
