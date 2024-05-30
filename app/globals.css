@@ -39,3 +39,22 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav-gradient{
+    background: none !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .custom-container {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .custom-container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

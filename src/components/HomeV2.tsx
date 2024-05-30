@@ -9,7 +9,35 @@ const HomeV2 = () => {
       <Banner />
       <WorksGallery />
       <footer className="mt-6 text-center md:flex justify-between items-center custom-container">
-        <p className="text-[#9BA1A6] text-base ">Social Media</p>
+        <div className="text-[#9BA1A6] text-base">
+          <ul className="flex md:space-x-8 rtl:space-x-reverse">
+            <li>
+              <a
+                href="#"
+                className="block hover:text-white"
+                aria-current="page"
+              >
+                FB
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block hover:text-white"
+              >
+                IN
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block hover:text-white"
+              >
+                X
+              </a>
+            </li>
+          </ul>
+        </div>
         <p className="text-[#9BA1A6] text-base ">Copy Right</p>
       </footer>
     </main>

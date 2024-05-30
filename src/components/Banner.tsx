@@ -5,9 +5,15 @@ import BannerBottom from "./BannerBottom";
 const Banner = () => {
   return (
     <section className="custom-container mt-[20px] grid grid-cols-1 lg:grid-cols-2 md:gap-[20px]">
-      <div className="profile p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] md:flex flex-col justify-between gap-6" style={{background: 'linear-gradient(114deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%);'}}>
+      <div
+        className="profile p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] laptop:flex desktop:flex flex-col justify-between gap-6"
+        style={{
+          background:
+            "linear-gradient(114deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%);",
+        }}
+      >
         <div className="flex justify-between items-center">
-          <div className="md:hidden">
+          <div className="laptop:hidden desktop:hidden">
             <Image
               src="/images/profile.png"
               alt="Profile Image"
@@ -16,7 +22,7 @@ const Banner = () => {
               className="rounded-full"
             />
           </div>
-          <div className="hidden md:block">
+          <div className="hidden laptop:block desktop:block">
             <h1 className="text-white text-2xl font-bold">UI/UX Designer</h1>
             <p className="text-[#9BA1A6] text-sm font-normal">
               Dhaka, Bangladesh
@@ -28,7 +34,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="mt-6 md:hidden">
+        <div className="mt-6 laptop:hidden desktop:hidden">
           <h1 className="text-white text-2xl font-bold">
             I&apos;M IBRAHIM <span className="font-normal">MIAH</span>
           </h1>
@@ -38,8 +44,8 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="hidden md:flex justify-between items-center gap-5">
-          <div className="">
+        <div className="hidden laptop:flex desktop:flex justify-between items-start gap-5">
+          <div>
             <Image
               src="/images/profile.png"
               alt="Profile Image"
@@ -49,10 +55,10 @@ const Banner = () => {
             />
           </div>
           <div>
-            <h3 className="uppercase text-2xl font-semibold">
+            <h3 className="uppercase text-4xl laptop:font-semibold desktop:font-semibold">
               I&apos;M Ibrahim miah
             </h3>
-            <p className="text-[#9BA1A6] text-sm font-normal">
+            <p className="text-[#9BA1A6] text-base font-normal mt-4">
               I specialize in UX/UI design for Web Apps, Websites and mobile
               applications.
             </p>
