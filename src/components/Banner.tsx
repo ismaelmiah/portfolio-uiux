@@ -4,9 +4,9 @@ import BannerBottom from "./BannerBottom";
 
 const Banner = () => {
   return (
-    <section className="custom-container mt-[20px] grid grid-cols-1 lg:grid-cols-2 md:gap-[20px]">
+    <section className="custom-container mt-[20px] grid grid-cols-1 desktop:grid-cols-2 laptop:grid-cols-2 laptop:gap-[20px]">
       <div
-        className="profile p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] laptop:flex desktop:flex flex-col justify-between gap-6"
+        className="profile p-5 rounded-2xl bg-[#131a29] border border-[var(--color-tertiary)] laptop:flex desktop:flex flex-col justify-between gap-28"
         style={{
           background:
             "linear-gradient(114deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%);",
@@ -44,7 +44,7 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="hidden laptop:flex desktop:flex justify-between items-start gap-5">
+        <div className="hidden laptop:flex desktop:flex justify-between items-center gap-5">
           <div>
             <Image
               src="/images/profile.png"
@@ -68,7 +68,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="mt-6 w-full md:hidden">
+        <div className="mt-6 w-full laptop:hidden">
           <button className="py-2 rounded-lg bg-[#3833D7] shadow-lg shadow-[#3833D7]/50 w-full flex gap-2 justify-center items-center">
             Let&apos;s Talk{" "}
             <span className="text-white">

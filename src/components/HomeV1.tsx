@@ -120,7 +120,7 @@ const HomeV1 = () => {
             <h1 className="text-4xl font-bold">Works</h1>
             <button className="text-blue-500 hover:underline">View All</button>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 desktop:grid-cols-4 gap-6">
             {/* Project Blocks */}
             <div className="relative overflow-hidden rounded-lg bg-gray-200">
               <Image

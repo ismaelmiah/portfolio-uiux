@@ -8,9 +8,9 @@ const HomeV2 = () => {
       <Navbar />
       <Banner />
       <WorksGallery />
-      <footer className="mt-6 text-center md:flex justify-between items-center custom-container">
+      <footer className="mt-6 text-center laptop:flex justify-between items-center custom-container">
         <div className="text-[#9BA1A6] text-base">
-          <ul className="flex md:space-x-8 rtl:space-x-reverse">
+          <ul className="flex laptop:space-x-8 rtl:space-x-reverse">
             <li>
               <a
                 href="#"

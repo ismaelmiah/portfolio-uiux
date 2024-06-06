@@ -45,10 +45,9 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
   .custom-container {
-    padding-left: 22%;
-    padding-right: 22%;
+    padding: 0% 10%;
   }
 }
 

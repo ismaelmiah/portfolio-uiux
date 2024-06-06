@@ -25,12 +25,12 @@ const cards = [
 
 const BannerBottom = () => {
   return (
-    <div className="w-full px-2 md:px-0 mt-6 md:mt-0">
+    <div className="w-full px-2 desktop:px-0 laptop:px-0 mt-6 laptop:mt-0 desktop:mt-0">
       <div className="grid grid-cols-2 gap-[20px]">
         {cards.map((card) => (
           <div
             key={card.id}
-            className={`${card.title.toLowerCase()} cursor-pointer flex justify-center items-center bg-[#131a29] rounded-2xl h-32 md:h-40 border border-[var(--color-tertiary)]`}
+            className={`${card.title.toLowerCase()} cursor-pointer flex justify-center items-center bg-[#131a29] rounded-2xl h-32 laptop:h-44 desktop:h-48 border border-[var(--color-tertiary)]`}
             style={{background: `linear-gradient(${(card.id*114)%360}deg, rgba(89,84,222,0.15) 0%, rgba(14,22,29,.15) 100%);`}}
           >
             <div className="flex flex-col items-center">
