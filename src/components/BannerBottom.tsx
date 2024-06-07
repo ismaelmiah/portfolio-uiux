@@ -25,7 +25,7 @@ const cards = [
 
 const BannerBottom = () => {
   return (
-    <div className="w-full px-2 desktop:px-0 laptop:px-0 mt-6 laptop:mt-0 desktop:mt-0">
+    <div className="w-full desktop:px-0 laptop:px-0 mt-6 laptop:mt-0 desktop:mt-0">
       <div className="grid grid-cols-2 gap-[20px]">
         {cards.map((card) => (
           <div

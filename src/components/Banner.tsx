@@ -62,7 +62,7 @@ const Banner = () => {
               I specialize in UX/UI design for Web Apps, Websites and mobile
               applications.
             </p>
-            <button className="bg-[#3833D7] px-6 py-2 rounded-lg shadow-lg shadow-[#3833D7]/50 mt-4 flex gap-1">
+            <button className="hover:bg-[#3833D7]/90 hover:shadow-[#3833D7]/20 bg-[#3833D7] px-6 py-2 rounded-lg shadow-lg shadow-[#3833D7]/50 mt-4 flex gap-1">
               Let&apos;s Talk <ChevronRight />
             </button>
           </div>

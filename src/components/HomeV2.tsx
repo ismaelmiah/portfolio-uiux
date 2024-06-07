@@ -10,7 +10,7 @@ const HomeV2 = () => {
       <WorksGallery />
       <footer className="mt-6 text-center laptop:flex justify-between items-center custom-container">
         <div className="text-[#9BA1A6] text-base">
-          <ul className="flex laptop:space-x-8 rtl:space-x-reverse">
+          <ul className="flex tablet:space-x-4 desktop:space-x-8 laptop:space-x-8 rtl:space-x-reverse">
             <li>
               <a
                 href="#"
