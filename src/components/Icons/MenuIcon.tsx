@@ -3,7 +3,7 @@ const MenuIcon = () => {
     <a
     className="flex text-base underline"
     aria-label="View Full Resume"
-    href="/resume/Resume_Of_Ismael_Miah.pdf"
+    href="/UI_UX_DESIGNER_IBRAHIM.pdf"
     target="_blank"
   >
     <svg

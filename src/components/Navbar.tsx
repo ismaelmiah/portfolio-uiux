@@ -28,8 +28,9 @@ const Navbar = () => {
         >
           <div className="flex items-center gap-5">
             <Link
-              href="/about"
+              href="https://www.linkedin.com/in/ibrahimuix"
               className="text-base text-[#9BA1A6] hover:text-white"
+              target="_blank"
             >
               About
             </Link>

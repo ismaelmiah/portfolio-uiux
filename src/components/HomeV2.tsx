@@ -13,25 +13,28 @@ const HomeV2 = () => {
           <ul className="flex tablet:space-x-4 desktop:space-x-8 laptop:space-x-8 rtl:space-x-reverse">
             <li>
               <a
-                href="#"
+                href="https://www.facebook.com/ibrahimuix"
                 className="block hover:text-white"
                 aria-current="page"
+                target="_blank"
               >
                 FB
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="https://wa.me/qr/OXX6PKWUCUHEN1"
                 className="block hover:text-white"
+                target="_blank"
               >
-                IN
+                WA
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="https://twitter.com/ibrahim_uix"
                 className="block hover:text-white"
+                target="_blank"
               >
                 X
               </a>

@@ -23,7 +23,7 @@ body {
 .text-content{
   inset: -1px;
 }
-
+/* 
 .behance:hover {
   background: linear-gradient(
     150deg,
@@ -51,6 +51,10 @@ body {
     rgba(89, 84, 222, 0.15) 0%,
     rgba(14, 22, 29, 0.15) 100%
   ) !important;
+} */
+
+.social-media-card:hover{
+  background-color: #131a29 !important;
 }
 
 @media screen and (min-width: 768px) {

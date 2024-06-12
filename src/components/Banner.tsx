@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import ChevronRight from "./Icons/ChevronRight";
 import BannerBottom from "./BannerBottom";
@@ -29,7 +31,7 @@ const Banner = () => {
             </p>
           </div>
           <div className="flex gap-2 items-center p-1 px-3 rounded-2xl bg-[var(--color-primary)] border border-[var(--color-tertiary)]">
-            <span className="w-2 h-2 bg-red-600 rounded-full" />
+            <span className="w-2 h-2 bg-[#3833D7] rounded-full" />
             <p className="text-xs">AVAILABLE FOR JOB</p>
           </div>
         </div>
@@ -55,21 +57,34 @@ const Banner = () => {
             />
           </div>
           <div>
-            <h3 className="uppercase text-4xl laptop:font-semibold desktop:font-semibold">
+            <h3 className="uppercase text-5xl laptop:hidden desktop:block font-semibold">
               I&apos;M Ibrahim miah
             </h3>
-            <p className="text-[#9BA1A6] text-base font-normal mt-4">
+            <h3 className="uppercase text-4xl desktop:hidden font-semibold">
+              I&apos;M Ibrahim miah
+            </h3>
+            <p className="text-[#9BA1A6] text-base font-normal mt-4 w-[25rem]">
               I specialize in UX/UI design for Web Apps, Websites and mobile
               applications.
             </p>
-            <button className="hover:bg-[#3833D7]/90 hover:shadow-[#3833D7]/20 bg-[#3833D7] px-6 py-2 rounded-lg shadow-lg shadow-[#3833D7]/50 mt-4 flex gap-1">
+            <button
+              onClick={(e) => {
+                window.location.href = "mailto:Ibrahim.uix@hotmail.com";
+              }}
+              className="hover:bg-[#3833D7]/90 hover:shadow-[#3833D7]/20 bg-[#3833D7] px-6 py-2 rounded-lg shadow-lg shadow-[#3833D7]/50 mt-4 flex gap-1"
+            >
               Let&apos;s Talk <ChevronRight />
             </button>
           </div>
         </div>
 
         <div className="mt-6 w-full laptop:hidden">
-          <button className="py-2 rounded-lg bg-[#3833D7] shadow-lg shadow-[#3833D7]/50 w-full flex gap-2 justify-center items-center">
+          <button
+            onClick={(e) => {
+              window.location.href = "mailto:Ibrahim.uix@hotmail.com";
+            }}
+            className="py-2 rounded-lg bg-[#3833D7] shadow-lg shadow-[#3833D7]/50 w-full flex gap-2 justify-center items-center"
+          >
             Let&apos;s Talk{" "}
             <span className="text-white">
               <ChevronRight />
