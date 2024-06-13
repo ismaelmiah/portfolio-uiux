@@ -47,7 +47,7 @@ const Banner = () => {
         </div>
 
         <div className="hidden laptop:flex desktop:flex justify-between items-center gap-5">
-          <div>
+          <div className="w-1/3">
             <Image
               src="/images/profile.png"
               alt="Profile Image"
@@ -56,15 +56,19 @@ const Banner = () => {
               className="rounded-full"
             />
           </div>
-          <div className="w-[25rem]">
+          <div className="w-2/3">
             <h3 className="uppercase text-5xl laptop:hidden desktop:block font-semibold">
               I&apos;M Ibrahim miah
             </h3>
             <h3 className="uppercase text-4xl desktop:hidden font-semibold">
               I&apos;M Ibrahim miah
             </h3>
-            <p className="text-[#9BA1A6] text-base font-normal mt-4">
-              I specialize in UX/UI design for Web Apps, Websites and mobile
+            <p className="text-[#9BA1A6] text-base font-normal mt-4 laptop:block desktop:hidden">
+              I specialize in UX/UI design for Web Apps, Websites <br />and mobile
+              applications.
+            </p>
+            <p className="text-[#9BA1A6] text-base font-normal mt-4 laptop:hidden desktop:block">
+              I specialize in UX/UI design for Web Apps, Websites <br /> and mobile
               applications.
             </p>
             <button
