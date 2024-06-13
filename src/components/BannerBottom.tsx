@@ -34,7 +34,7 @@ const BannerBottom = () => {
         {cards.map((card) => (
           <a
             key={card.id}
-            className={`social-media-card cursor-pointer flex justify-center items-center rounded-2xl h-32 laptop:h-44 desktop:h-48 border border-[var(--color-tertiary)]`}
+            className={`social-media-card cursor-pointer flex justify-center items-center rounded-2xl h-32 laptop:h-48 desktop:h-48 border border-[var(--color-tertiary)]`}
             style={{background: `linear-gradient(${(card.id == 1 ? 135 : card.id == 2 ? 225 : card.id == 3 ? 45 : 300)}deg, rgba(89,84,222,.15) 0%, rgba(14,22,29,.15) 100%);`}}
             href={card.refLink}
             target="_blank"

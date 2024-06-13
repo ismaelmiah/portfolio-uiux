@@ -56,14 +56,14 @@ const Banner = () => {
               className="rounded-full"
             />
           </div>
-          <div>
+          <div className="w-[25rem]">
             <h3 className="uppercase text-5xl laptop:hidden desktop:block font-semibold">
               I&apos;M Ibrahim miah
             </h3>
             <h3 className="uppercase text-4xl desktop:hidden font-semibold">
               I&apos;M Ibrahim miah
             </h3>
-            <p className="text-[#9BA1A6] text-base font-normal mt-4 w-[25rem]">
+            <p className="text-[#9BA1A6] text-base font-normal mt-4">
               I specialize in UX/UI design for Web Apps, Websites and mobile
               applications.
             </p>
