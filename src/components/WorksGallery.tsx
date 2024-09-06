@@ -6,31 +6,33 @@ import Link from "next/link";
 const works = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Project 1",
-    imgUrl: "/images/work-1.jpg",
-    projectUrl: "/images/work-1.jpg",
+    title: "HRM Application Dashboard",
+    description:
+      "A human resource management system (HRMS) is a set of software applications that assists HR professionals in managing HR functions efficiently.",
+    imgUrl: "/images/hrm-application-dashboard-ui.png",
+    projectUrl:
+      "https://dribbble.com/shots/24603923-HRM-Application-Dashboard-UI",
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Project 2",
-    imgUrl: "/images/work-1.jpg",
-    projectUrl: "/images/work-2.png",
+    title: "Harley Davidson Website Hero",
+    description: "Harley Davidson Website Hero Section",
+    imgUrl: "/images/harley-davidson-website-hero-section.png",
+    projectUrl: "https://dribbble.com/shots/24300709-Harley-Davidson-Website-Hero-Section",
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "Project 3",
-    imgUrl: "/images/work-1.jpg",
-    projectUrl: "/images/work-3.png",
+    title: "Freight Website Landing Page",
+    description: "Freight Website: Navigating the Digital Logistics Landscape",
+    imgUrl: "/images/freight-website-landing-page.png",
+    projectUrl: "https://dribbble.com/shots/23511452-Freight-Website-Landing-Page-Design",
   },
   {
     id: 4,
-    title: "Project 4",
-    description: "Project 4",
-    imgUrl: "/images/work-1.jpg",
-    projectUrl: "/images/work-4.png",
+    title: "Video Game Streaming Mobile App",
+    description: "Video Game Streaming Mobile App",
+    imgUrl: "/images/video-game-streaming-mobile-app.png",
+    projectUrl: "https://dribbble.com/shots/24297950-Video-Game-Streaming-Mobile-App-UI",
   },
 ];
 
@@ -43,7 +45,7 @@ const WorksGallery = () => {
         </h3>
         <div className="hidden laptop:flex justify-between items-center p-[20px]">
           <h3 className="text-lg font-semibold text-[#9BA1A6]">Works</h3>
-          <Link href="/works" className="text-white text-base underline">
+          <Link href="/https://dribbble.com/ibrahimuix" className="text-white text-base underline">
             View All
           </Link>
         </div>
@@ -53,10 +55,8 @@ const WorksGallery = () => {
               {works.map((work) => (
                 <div
                   key={work.id}
-                  onClick={() => location.replace(work.projectUrl)}
-                  className={`group rounded-2xl cursor-pointer flex flex-col flex-shrink-0 laptop:w-3/12 tablet:pb-[20px] pr-[20px] pb-[20px] tablet:pl-0 tablet:pr-0 ${
-                    work.id == 1 ? "pl-[20px] tablet:pt-0" : ""
-                  } ${work.id == works.length ? "tablet:pr-0" : ""}`}
+                  onClick={() => window.open(work.projectUrl, "_blank")}
+                  className={`group rounded-2xl cursor-pointer flex flex-col flex-shrink-0 laptop:w-3/12 tablet:pb-[20px] pr-[20px] pb-[20px] pl-[20px]`}
                 >
                   <div className="h-56 laptop:h-64 relative overflow-hidden rounded-xl">
                     <Image
@@ -66,7 +66,7 @@ const WorksGallery = () => {
                       layout="fill"
                     />
                     <div className="text-content absolute flex flex-col items-center justify-center bg-[#131a29] bg-opacity-80 transform translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out">
-                      <h2 className="text-lg font-semibold">{work.title}</h2>
+                      <h2 className="text-lg font-semibold break-words">{work.title}</h2>
                       <p className="text-base text-[#9BA1A6] text-center">
                         {work.description}
                       </p>
